@@ -8,6 +8,8 @@ This repository contains utuility modules required by both Gradient and Graduali
 def deps do
   [
     {:gradient_runtime, github: "esl/gradient_runtime", only: [:test, :prod]}
+    # OR
+    {:gradient_runtime, github: "esl/gradient_runtime", ref: "REF", only: [:test, :prod]}
   ]
 end
 ```
