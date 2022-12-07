@@ -7,9 +7,9 @@ This repository contains utuility modules required by both Gradient and Graduali
 ```elixir
 def deps do
   [
-    {:gradient_runtime, github: "esl/gradient_runtime", only: [:test, :prod]}
+    {:gradient_runtime, github: "esl/gradient_runtime"}
     # OR
-    {:gradient_runtime, github: "esl/gradient_runtime", ref: "REF", only: [:test, :prod]}
+    {:gradient_runtime, github: "esl/gradient_runtime", ref: "REF"}
   ]
 end
 ```
