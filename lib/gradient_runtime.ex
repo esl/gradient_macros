@@ -1,3 +1,3 @@
-defmodule GradientRuntime do
+defmodule GradientMacros do
   @moduledoc false
 end

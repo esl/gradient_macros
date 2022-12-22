@@ -1,9 +1,9 @@
-defmodule GradientRuntime.MixProject do
+defmodule GradientMacros.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :gradient_runtime,
+      app: :gradient_macros,
       version: "0.1.0",
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,

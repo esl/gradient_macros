@@ -1,4 +1,4 @@
-# GradientRuntime
+# GradientMacros
 
 This repository contains utuility modules required by both Gradient and Gradualizer.
 
@@ -7,9 +7,9 @@ This repository contains utuility modules required by both Gradient and Graduali
 ```elixir
 def deps do
   [
-    {:gradient_runtime, github: "esl/gradient_runtime"}
+    {:gradient_macros, github: "esl/gradient_macros"}
     # OR
-    {:gradient_runtime, github: "esl/gradient_runtime", ref: "REF"}
+    {:gradient_macros, github: "esl/gradient_macros", ref: "REF"}
   ]
 end
 ```
