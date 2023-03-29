@@ -49,8 +49,8 @@ defmodule Gradient.TypeAnnotation do
       require Gradient.TypeAnnotation
 
       @compile {:inline, "::": 2, ":::": 2}
-      def unquote(:"::")(expr, _type), do: expr
-      def unquote(:":::")(expr, _type), do: expr
+      defp unquote(:"::")(expr, _type), do: expr
+      defp unquote(:":::")(expr, _type), do: expr
     end
   end
 end
